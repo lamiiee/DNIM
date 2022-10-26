@@ -27,7 +27,7 @@ const Form = () => {
     console.log(formData);
   }
   return (
-    <section className="form-container">
+    <section className="form-container form-bgc">
       <div className="section-center">
         <article className="form">
           <img

@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 const Message = () => {
   return (
     <header className="header">
-      <div className="section-center">
+      <div className="header-center">
         <div className="header-container">
           <img
             src={purple}
