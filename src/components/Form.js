@@ -17,7 +17,7 @@ const Form = () => {
       };
     });
   }
-  function handleSubmit(e) {
+    /*function handleSubmit(e) {
     e.preventDefault();
     setFormData({
       name: "",
@@ -25,9 +25,9 @@ const Form = () => {
       email: "",
     });
     console.log(formData);
-  }
+  }*/
   return (
-    <section className="form-container form-bgc">
+    <section className="form-container ">
       <div className="section-center">
         <article className="form">
           <img
@@ -38,7 +38,7 @@ const Form = () => {
           <p>
             Join DNI waiting list: We will notify you when the platform is live
           </p>
-          <form onSubmit={handleSubmit}>
+          <form  action= "https://formspree.io/f/mrgdyrpa" method="POST">
             <input
               value={formData.name}
               onChange={handleChange}
